@@ -1,4 +1,4 @@
-## Modul Praktikum Algoritma dan Pemrograman 2024
+## Modul Praktikum Algoritma dan Pemrograman 2025
 ## Daftar Modul dan Materi
 
 ### Modul 0: Pengenalan Pemrograman
