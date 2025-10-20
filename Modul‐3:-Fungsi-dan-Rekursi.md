@@ -191,15 +191,15 @@ _**Recursive Case**_ adalah kasus dimana sebuah fungsi diharuskan untuk memanggi
 
 Kita ambil contoh fungsi rekursif untuk memangkatkan suatu bilangan bulat. Didefinisikan perpangkatan sebuah bilangan **a** pangkat **m** sebagai **`power(a, m)`**, berarti dapat dituliskan:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;m)=a\times&space;a\times&space;a\times&space;\cdots&space;(m-kali)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;m)=a\times&space;a\times&space;a\times&space;\cdots&space;(m-kali)" title="power(a, m)=a\times a\times a\times \cdots (m-kali)" /></a>
+$$\text{power}(a, m) = a \times a \times a \times \cdots \times (m\text{-kali})$$
 
 Atau dapat didefinisikan sebagai fungsi rekursif:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;m)=a\times&space;power(a,m-1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;m)=a\times&space;power(a,m-1)" title="power(a, m)=a\times power(a,m-1)" /></a>
+$$\text{power}(a, m) = a \times \text{power}(a, m - 1)$$
 
 Dengan *base case*-nya adalah:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=power(a,&space;0)=&space;1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?power(a,&space;0)=&space;1" title="power(a, 0)= 1" /></a>
+$$\text{power}(a, 0) = 1$$
 
 Dapat diperhatikan bahwa *base case* dari fungsi `power(a, m)` adalah ketika `power(a, 0)` yang menghasilkan 1. Ketika sudah mencapai *base case*, maka tidak perlu melakukan pemanggilan fungsi itu lagi.
 
