@@ -1,4 +1,6 @@
-## Modul Praktikum Algoritma dan Pemrograman
+<div align="center">
+  <h1>Modul Praktikum <br /> Algoritma dan Teknik Pemrograman</h1>
+</div>
 
 ## Daftar Modul dan Materi
 
