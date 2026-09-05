@@ -4,6 +4,12 @@
 
 ## Daftar Modul dan Materi
 
+### [Pra-Praktikum: Persiapan Environment](./Modul/Pra-Praktikum:-Persiapan-Environment.md)
+
+- Persiapan compiler C
+- Pengaturan PATH environment variable
+- Instalasi text editor atau IDE (Microsoft Visual Studio Code)
+
 ### [Modul 0: Pengenalan Pemrograman](./Modul/Modul‐0:-Pengenalan‐Pemrograman.md)
 
 - Pengenalan Bahasa C
